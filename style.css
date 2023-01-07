@@ -729,7 +729,7 @@ h5{
   margin: auto;
   justify-content: center;
   background: #171717;
-  height: 610px;
+  height: 100%;
   position: absolute;
   top: 17%;
   z-index: 0;
