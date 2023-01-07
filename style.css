@@ -736,7 +736,7 @@ h5{
 }
 .contact-box{
     width: 800px;
-    height: 610px;
+    height: 100%;
     position: relative;
     left: 24%;
     background: #0000004e;
