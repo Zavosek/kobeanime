@@ -605,7 +605,7 @@ h5{
     position: absolute;
 }
 .watch-card{
-  height: 260px;
+  height: 270px;
   width: 18%;
   background: #00a2f9;
   padding: 100px;
@@ -626,7 +626,7 @@ h5{
   padding-top: 8px;
 }
 .watch-card img{
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .iconsize{
   width: 140px;
