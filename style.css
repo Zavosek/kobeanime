@@ -238,7 +238,7 @@ h4{
   position: relative;
   justify-content: center;
   display: flex;
-  height: 440px;
+  height: 540px;
   align-items: center;
 }
 .sec .content .content1 .cimg{
@@ -325,6 +325,7 @@ h4{
 	margin: 25px auto;
 	text-align: center;
   font-family: "Teko";
+  margin-bottom: 100px;
 }
 .box{
 	display: flex;
@@ -603,7 +604,7 @@ h5{
     position: absolute;
 }
 .watch-card{
-  height: 260px;
+  height: 270px;
   width: 18%;
   background: #00a2f9;
   padding: 100px;
@@ -624,7 +625,7 @@ h5{
   padding-top: 8px;
 }
 .watch-card img{
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .iconsize{
   width: 140px;
@@ -647,7 +648,7 @@ h5{
   height: 140px;
   width: 100%;
   position: absolute;
-  top: 18%;
+  top: 16%;
   display:inline-block;
   justify-content: center;
   align-items: center;
@@ -661,9 +662,9 @@ h5{
   font-weight: bold;
   background:#171717;
   height: 40px;
-  width: 145px;
-  margin-right: 6px;
-  margin-top: 15px;
+  width: 170px;
+  margin-right: 5px;
+  margin-top: 5px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -671,6 +672,10 @@ h5{
   border-radius: 50px;
   float: left;
   position: relative;
+  left: 15%;
+}
+.anime-list-box .name-box{
+  margin-left: 12px;
 }
 .name-box h4{
   font-size: 20px;
@@ -694,7 +699,7 @@ h5{
   width: 100%;
   height: 160vh;
   margin: auto;
-  transform: translateY(-63.5%);
+  transform: translateY(-83.5%);
   justify-content: center;
   text-align: center;
   background: #171717;
@@ -718,7 +723,7 @@ h5{
 .video-box-content2{
   background: #202020;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   margin: auto;
   transform: translateY(-63.5%);
   justify-content: center;
@@ -731,14 +736,14 @@ h5{
   background: #171717;
   height: 100%;
   position: absolute;
-  top: 12%;
+  top: 13.1%;
   z-index: 0;
 }
 .contact-box{
     width: 800px;
     height: 100%;
     position: relative;
-    left: 30%;
+    left: 29%;
     background: #0000004e;
 }
 .resize12{
@@ -889,8 +894,8 @@ h5{
 }
 table {
   position: absolute;
-  left: 56.3%;
-  top: 94%;
+  left: 55.3%;
+  top: 97%;
   transform: translate(-50%, -50%);
   border-collapse: collapse;
   width: 700px;
@@ -932,7 +937,7 @@ tr:hover {
 .tab-text h2{
   color: white;
   font-size: 30px;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 15px;
   z-index: 1;
   text-align: center;
