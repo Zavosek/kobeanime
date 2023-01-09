@@ -238,7 +238,7 @@ h4{
   position: relative;
   justify-content: center;
   display: flex;
-  height: 540px;
+  height: 440px;
   align-items: center;
 }
 .sec .content .content1 .cimg{
@@ -325,7 +325,6 @@ h4{
 	margin: 25px auto;
 	text-align: center;
   font-family: "Teko";
-  margin-bottom: 100px;
 }
 .box{
 	display: flex;
@@ -442,7 +441,6 @@ h5{
 	margin: 15px auto;
 	text-align: center;
   font-family: "Teko";
-  margin-bottom: 100px;
 }
 .swiper{
   width: 60%;
@@ -605,7 +603,7 @@ h5{
     position: absolute;
 }
 .watch-card{
-  height: 270px;
+  height: 260px;
   width: 18%;
   background: #00a2f9;
   padding: 100px;
@@ -626,7 +624,7 @@ h5{
   padding-top: 8px;
 }
 .watch-card img{
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .iconsize{
   width: 140px;
@@ -649,7 +647,7 @@ h5{
   height: 140px;
   width: 100%;
   position: absolute;
-  top: 16%;
+  top: 18%;
   display:inline-block;
   justify-content: center;
   align-items: center;
@@ -663,9 +661,8 @@ h5{
   font-weight: bold;
   background:#171717;
   height: 40px;
-  width: 170px;
-  margin-right: 5px;
-  margin-left: 5px;
+  width: 145px;
+  margin-right: 6px;
   margin-top: 15px;
   align-items: center;
   text-align: center;
@@ -674,10 +671,6 @@ h5{
   border-radius: 50px;
   float: left;
   position: relative;
-  left:15%;
-}
-.anime-list-box .name-box{
-  margin-left: 12px;
 }
 .name-box h4{
   font-size: 20px;
@@ -701,7 +694,7 @@ h5{
   width: 100%;
   height: 160vh;
   margin: auto;
-  transform: translateY(-83.5%);
+  transform: translateY(-63.5%);
   justify-content: center;
   text-align: center;
   background: #171717;
@@ -725,7 +718,7 @@ h5{
 .video-box-content2{
   background: #202020;
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   margin: auto;
   transform: translateY(-63.5%);
   justify-content: center;
@@ -738,14 +731,14 @@ h5{
   background: #171717;
   height: 100%;
   position: absolute;
-  top: 13.1%;
+  top: 12%;
   z-index: 0;
 }
 .contact-box{
     width: 800px;
     height: 100%;
     position: relative;
-    left: 29%;
+    left: 30%;
     background: #0000004e;
 }
 .resize12{
@@ -893,4 +886,54 @@ h5{
 
 .navbar1 ul li:hover .dropdown-menu ul li {
   padding: 2px;
+}
+table {
+  position: absolute;
+  left: 56.3%;
+  top: 94%;
+  transform: translate(-50%, -50%);
+  border-collapse: collapse;
+  width: 700px;
+  height: 30px;
+  border: 1.5px solid #f9004d;
+  box-shadow: 2px 2px 12px rgba(255, 0, 98, 0.2), -1px -1px 8px rgba(255, 0, 81, 0.2);
+  background: #171717;
+  color: white;
+  font-weight: bold;
+}
+
+tr {
+  transition: all .2s ease-in;
+  cursor: pointer;
+}
+
+th,
+td {
+  padding: 6px;
+  text-align: left;
+  border-bottom: 1px solid #f9004d;
+}
+
+#header {
+  background-color: #f9004d;
+  color: #fff;
+}
+tr:hover {
+  background-color: #f9004d;
+  transform: scale(1.02);
+  box-shadow: 2px 2px 12px rgba(255, 0, 81, 0.2), -1px -1px 8px rgba(255, 0, 89, 0.2);
+}
+
+@media only screen and (max-width: 768px) {
+  table {
+      width: 90%;
+  }
+}
+.tab-text h2{
+  color: white;
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  z-index: 1;
+  text-align: center;
 }
