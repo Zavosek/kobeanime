@@ -664,7 +664,7 @@ h5{
   height: 40px;
   width: 170px;
   margin-right: 5px;
-  margin-top: 5px;
+  margin-top: 16px;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -894,8 +894,8 @@ h5{
 }
 table {
   position: absolute;
-  left: 55.3%;
-  top: 97%;
+  left: 50%;
+  top: 82%;
   transform: translate(-50%, -50%);
   border-collapse: collapse;
   width: 700px;
