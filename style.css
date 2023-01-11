@@ -895,7 +895,7 @@ h5{
 table {
   position: absolute;
   left: 50%;
-  top: 82%;
+  top: 80%;
   transform: translate(-50%, -50%);
   border-collapse: collapse;
   width: 700px;
